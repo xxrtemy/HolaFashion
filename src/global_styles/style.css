@@ -1,0 +1,13 @@
+:root{
+    --font-primary: Nunito Sans;
+    --font-titles: Playfair Display;
+}
+body{
+    font-family: var(--font-primary);
+}
+a{
+    color: #000;
+}
+html {
+    scroll-behavior: smooth;
+}

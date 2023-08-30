@@ -1,0 +1,94 @@
+.services__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services__heading{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #91916C;
+    margin:82px 0px 76px 0px;
+}
+.services__title{
+    font-family: var(--font-titles);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #E5A985;
+    margin-bottom: 51px;
+}
+.services__cards{
+    margin-bottom: 64px;
+}
+.cards__list{
+    display: flex;
+    align-items: baseline;
+    gap: 26px;
+}
+.cards__item{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; 
+    align-items: center;
+    transition: all .7s ease;
+}
+.cards__item:hover{
+    transform: scale(.97);
+}
+.cards__item img{
+    transition: all .7s;
+}
+.cards__item img:hover{
+    transform: scale(-1,1);
+}
+.cards__item.left{
+    max-width: 351px;
+    border-radius: 20px;
+    background-color: #FAE3D8;
+}
+.left__text{
+    padding: 25px 54px 35px 56px;
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.5%; /* 33.24px */
+    letter-spacing: 0.48px;
+}
+.cards__item.middle{
+    max-width: 387px;
+    border-radius: 20px;
+    background-color: #91916C;
+    box-shadow: 10px 10px 35px 2px rgba(89, 56, 14, 0.10);
+}
+.middle__text{
+    padding: 30px 56px 39px 57px;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.5%; /* 33.24px */
+    letter-spacing: 0.48px;
+}
+.cards__item.right{
+    max-width: 351px;
+    border-radius: 20px;
+    background-color: #FAE3D8;
+}
+.right__text{
+    padding: 25px 45px 35px 49px;
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 138.5%; /* 33.24px */
+    letter-spacing: 0.48px;
+}
