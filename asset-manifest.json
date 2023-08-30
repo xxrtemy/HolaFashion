@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/holafashion/static/css/main.5f3814c8.css",
-    "main.js": "/holafashion/static/js/main.325c4b9f.js",
-    "static/media/product.svg": "/holafashion/static/media/product.c9432a82f0e7047a4b6867dd8e38b47d.svg",
-    "static/media/contactsImg.svg": "/holafashion/static/media/contactsImg.d571afc08331fc6b25d3829774a9c1c7.svg",
-    "static/media/home.jpg": "/holafashion/static/media/home.c8058df7c13b7ef2d163.jpg",
-    "static/media/middle.svg": "/holafashion/static/media/middle.78d4f44684e0905da9487726a739806a.svg",
-    "static/media/right.svg": "/holafashion/static/media/right.f5d9aa20f4ce9e16a95ae4aa23a975ca.svg",
-    "static/media/blogImg1.svg": "/holafashion/static/media/blogImg1.9ec56b7784f5284d9a0f689c3f5cb909.svg",
-    "static/media/left.svg": "/holafashion/static/media/left.a906ade15574aafd34eebdd5af3923db.svg",
-    "static/media/blogImg2.svg": "/holafashion/static/media/blogImg2.1760b0600ab300965eca5de2a4e00d8c.svg",
-    "static/media/blogImg4.svg": "/holafashion/static/media/blogImg4.de689ad35fb44ce077d79586a9ed5ec5.svg",
-    "static/media/blogImg3.svg": "/holafashion/static/media/blogImg3.f06dd7305b0eefba1fd3bb5f035762b0.svg",
-    "static/media/blogImg6.svg": "/holafashion/static/media/blogImg6.8f749737869a81905061c2c040f63af4.svg",
-    "static/media/blogImg5.svg": "/holafashion/static/media/blogImg5.054b17d0132715cac323cbdaf6f07d94.svg",
-    "index.html": "/holafashion/index.html",
-    "main.5f3814c8.css.map": "/holafashion/static/css/main.5f3814c8.css.map",
-    "main.325c4b9f.js.map": "/holafashion/static/js/main.325c4b9f.js.map"
+    "main.css": "/HolaFashion/static/css/main.5f3814c8.css",
+    "main.js": "/HolaFashion/static/js/main.b5f80801.js",
+    "static/media/product.svg": "/HolaFashion/static/media/product.c9432a82f0e7047a4b6867dd8e38b47d.svg",
+    "static/media/contactsImg.svg": "/HolaFashion/static/media/contactsImg.d571afc08331fc6b25d3829774a9c1c7.svg",
+    "static/media/home.jpg": "/HolaFashion/static/media/home.c8058df7c13b7ef2d163.jpg",
+    "static/media/middle.svg": "/HolaFashion/static/media/middle.78d4f44684e0905da9487726a739806a.svg",
+    "static/media/right.svg": "/HolaFashion/static/media/right.f5d9aa20f4ce9e16a95ae4aa23a975ca.svg",
+    "static/media/blogImg1.svg": "/HolaFashion/static/media/blogImg1.9ec56b7784f5284d9a0f689c3f5cb909.svg",
+    "static/media/left.svg": "/HolaFashion/static/media/left.a906ade15574aafd34eebdd5af3923db.svg",
+    "static/media/blogImg2.svg": "/HolaFashion/static/media/blogImg2.1760b0600ab300965eca5de2a4e00d8c.svg",
+    "static/media/blogImg4.svg": "/HolaFashion/static/media/blogImg4.de689ad35fb44ce077d79586a9ed5ec5.svg",
+    "static/media/blogImg3.svg": "/HolaFashion/static/media/blogImg3.f06dd7305b0eefba1fd3bb5f035762b0.svg",
+    "static/media/blogImg6.svg": "/HolaFashion/static/media/blogImg6.8f749737869a81905061c2c040f63af4.svg",
+    "static/media/blogImg5.svg": "/HolaFashion/static/media/blogImg5.054b17d0132715cac323cbdaf6f07d94.svg",
+    "index.html": "/HolaFashion/index.html",
+    "main.5f3814c8.css.map": "/HolaFashion/static/css/main.5f3814c8.css.map",
+    "main.b5f80801.js.map": "/HolaFashion/static/js/main.b5f80801.js.map"
   },
   "entrypoints": [
     "static/css/main.5f3814c8.css",
-    "static/js/main.325c4b9f.js"
+    "static/js/main.b5f80801.js"
   ]
 }
