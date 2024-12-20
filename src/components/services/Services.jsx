@@ -1,3 +1,4 @@
+import React from 'react';
 import './services.css'
 
 import leftCardImg from '../../img/services/left.svg'

@@ -1,3 +1,4 @@
+import React from "react";
 import Blog from "./components/blog/Blog";
 import Contacts from "./components/contacts/Contacts.tsx";
 import Header from "./components/header/Header";

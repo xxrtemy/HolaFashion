@@ -1,3 +1,4 @@
+import React from 'react'
 import './blog.css'
 
 import blogImg1 from '../../img/blog/blogImg1.svg'
@@ -38,7 +39,7 @@ function Blog(){
                     </li>
                     <li className='blog__cards__item'>
                             <img src={blogImg6} alt="CardImg" />
-                            <p className='card__text'>The World's Most Famous Street Style Bloggers</p>
+                            <p className='card__text'>The World&apos;s Most Famous Street Style Bloggers</p>
                     </li>
                 </ul>
             </div>
