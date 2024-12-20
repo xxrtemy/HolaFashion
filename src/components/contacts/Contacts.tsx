@@ -1,14 +1,8 @@
 import './contacts.css'
-import contactsImg from '../../img/images/contactsImg.svg'
+import  contactsImg  from '../../img/images/contactsImg.svg'
 import { SubmitHandler, useForm } from 'react-hook-form';
 import React from 'react';
-
-interface ContactsForm{
-    name: string;
-    lastName: string;
-    email: string;
-    textarea: string;
-}
+import { ContactsForm } from './contacts.interface';
 
 function Contacts(){
     const {register, handleSubmit} =  useForm<ContactsForm>({

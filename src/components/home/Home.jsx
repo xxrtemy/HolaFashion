@@ -1,3 +1,4 @@
+import React from 'react';
 import './home.css'
 import homeImg from '../../img/images/home.jpg'
 
