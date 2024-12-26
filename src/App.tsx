@@ -1,10 +1,10 @@
 import React from "react";
-import Blog from "./components/blog/Blog";
-import Contacts from "./components/contacts/Contacts";
+import Blog from "./feature/blog/Blog";
+import Contacts from "./feature/contacts/Contacts";
 import { Header } from "@components/Header";
-import Home from "./components/home/Home";
-import Product from "./components/product/Product"
-import Services from "./components/services/Services.jsx"
+import Home from "./feature/home/Home";
+import Product from "./feature/product/Product"
+import Services from "./feature/services/Services.jsx"
 
 
 function App() {
