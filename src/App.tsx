@@ -1,10 +1,11 @@
 import React from "react";
-import Blog from "./feature/blog/Blog.js";
-import Contacts from "./feature/contacts/Contacts.js";
-import Header from "./feature/header/Header.jsx";
-import Home from "./feature/home/Home.jsx";
-import Product from "./feature/product/Product.jsx"
-import Services from "./feature/services/Services.jsx"
+import Blog from "./components/blog/Blog";
+import Contacts from "./components/contacts/Contacts";
+import { Header } from "@components/Header";
+import Home from "./components/home/Home";
+import Product from "./components/product/Product"
+import Services from "./components/services/Services.jsx"
+
 
 function App() {
   return (
