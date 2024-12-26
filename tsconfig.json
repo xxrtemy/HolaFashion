@@ -6,7 +6,7 @@
       "baseUrl": "./", 
       "paths": {
         "*": ["src/*"], 
-        "@components/*": ["src/utils/components/*"],
+        "@components/*": ["src/shared/components/*"],
         "@img/*": ["src/img/*"],  
       },
       "target": "ESNext",

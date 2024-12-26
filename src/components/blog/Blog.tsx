@@ -1,6 +1,6 @@
 import React from 'react'
 import './blog.css'
-import { List } from '@components/List'
+import { List } from 'shared/components/List'
 import { BLOG } from './consts'
 
 function Blog(){
