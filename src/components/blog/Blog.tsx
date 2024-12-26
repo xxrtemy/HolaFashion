@@ -11,7 +11,7 @@ function Blog(){
                 Hola Fashion - Newest Designers, Lowest Prices
             </h2>
             <div className="blog__cards">
-                <List.Unordered listItems={BLOG.LIST} />
+                <List.Unordered {...BLOG.LIST} />
             </div>
         </section>
     )

@@ -2,14 +2,14 @@ import React, { FC } from 'react'
 import { ListItemImg, ListItemText, ListItemWrapper, Wrapper } from './index.style'
 import type { UnorderedProps } from './index.interface'
 
-export const Unordered : FC<UnorderedProps> = ({ listItems }) => {
+export const Unordered : FC<UnorderedProps> = ({ content }) => {
   return (
     <Wrapper>
-      {listItems.map((listItem) => (
-      <ListItemWrapper key={listItem.index}>
-        <ListItemImg {...listItem.sizeImg} src={listItem.img} />
-        <ListItemText>{listItem.text}</ListItemText>
-      </ListItemWrapper>
+      {content.map(({index, sizeImg, img, text}) => (
+        <ListItemWrapper key={index}>
+          <ListItemImg {...sizeImg} src={img} />
+          <ListItemText>{text}</ListItemText>
+        </ListItemWrapper>
       ))
 
       }

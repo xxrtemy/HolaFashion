@@ -1,5 +1,5 @@
 export interface UnorderedProps {
-    listItems: Array<ListItem>
+    content: Array<ListItem>
 }
 
 type ListItem = {
