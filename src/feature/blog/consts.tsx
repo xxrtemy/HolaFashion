@@ -9,7 +9,10 @@ import  blogImg6  from '@img/blog/blogImg6.svg';
 
 
 export const BLOG = {
-    HEADER: 'Hola Fashion - Newest Designers, Lowest Prices',
+    SECTION: {
+        heading: 'BLOG',
+        title: 'Hola Fashion - Newest Designers, Lowest Prices'
+    },
     LIST: {
         content: [
             {
@@ -40,7 +43,7 @@ export const BLOG = {
             {
                 index: 6,
                 img: blogImg6,
-                text: 'The World&apos;s Most Famous Street Style Bloggers'
+                text: "The World's Most Famous Street Style Bloggers"
             }
         ]
     } 
