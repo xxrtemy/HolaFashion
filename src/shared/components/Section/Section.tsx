@@ -7,14 +7,14 @@ import {
   SectionCards 
 } from './index.style'
 
-export const Section: FC<SectionProps> = ({ heading, title, children }) => {
+export const Section: FC<SectionProps> = ({ heading, title, children, bgColor }) => {
   return (
-    <SectionWrapper id='Blog'>
-      <SectionHeading>
-        {heading}
+    <SectionWrapper color={bgColor} id='Blog'>
+      <SectionHeading color={heading.color}>
+        {heading.text}
       </SectionHeading>
-      <SectionTitle>
-        {title}
+      <SectionTitle color={title.color}>
+        {title.text}
       </SectionTitle>
       <SectionCards>
         {children}
