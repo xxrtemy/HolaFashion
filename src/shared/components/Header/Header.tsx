@@ -13,7 +13,6 @@ export const Header = () => {
             <HeaderContentWrapper>
                 <HeaderLogo>Hola Fashion</HeaderLogo>
                 <nav>
-
                     <HeaderNavList>
                     {
                         NAV.map(({href, content}) => (
