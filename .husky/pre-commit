@@ -1,0 +1,11 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+echo "🔍 Running ESLint on the entire repository..."
+npx eslint . --fix
+if [ $? -eq 0 ]; then
+  echo "✅ ESLint checks passed successfully!"
+else
+  echo "❌ ESLint checks failed. Please fix the issues before committing."
+  exit 1
+fi

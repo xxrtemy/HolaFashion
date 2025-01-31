@@ -1,0 +1,38 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "es2021": true
+  
+    },
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+    "plugins": ["react", "react-hooks"],
+    "rules": {
+      "react/prop-types": "error", 
+      "react/react-in-jsx-scope": "off",
+      "react/no-unescaped-entities": "warn",
+      "react/no-unused-state": "warn",          // Предупреждает о неиспользуемом состоянии
+      "react/no-direct-mutation-state": "error", // Запрещает прямую мутацию состояния            
+      "react/no-array-index-key": "warn",      // Предупреждает об использовании индекса массива как ключа
+      "react/no-danger": "warn",               // Предупреждает об использовании dangerouslySetInnerHTML
+      "react/no-unstable-nested-components": "warn", // Избегать вложенных компонентов в рендер-функциях
+      "react/jsx-key": "warn",                 // Убедиться, что у всех элементов в списке есть `key`
+      "react/jsx-no-target-blank": "warn",     // Предупреждает об использовании target="_blank" без rel="noreferrer"
+      "react/self-closing-comp": "warn",       // Требует использовать самозакрывающиеся теги для пустых компонентов
+      "react/jsx-pascal-case": "warn",          // Требует именования компонентов в PascalCase
+      "react-hooks/rules-of-hooks": "error",    // Проверяет правила использования хуков
+      "react-hooks/exhaustive-deps": "warn"     // Предупреждает о пропущенных зависимостях в useEffect
+
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
+  }
+  

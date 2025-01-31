@@ -7,19 +7,27 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "@vitejs/plugin-react-swc": "^3.7.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.45.4",
-    "react-scripts": "5.0.1",
+    "styled-components": "^6.1.13",
+    "vite": "^6.0.6",
+    "vite-plugin-svgr": "^4.3.0",
+    "vite-tsconfig-paths": "^5.1.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "predeploy": "npm run build",
+    "lint:base": "eslint . --fix",
+    "lint": "echo '🔍 Starting ESLint check...' && npm run lint:base -- --fix && echo '✅ ESLint check completed successfully!' || echo '❌ ESLint check failed. Please fix the issues!'",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
@@ -40,6 +48,13 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.0.0"
+    "@eslint/js": "^9.17.0",
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.2",
+    "gh-pages": "^6.0.0",
+    "globals": "^15.14.0",
+    "husky": "^8.0.0",
+    "typescript": "^4.9.5",
+    "typescript-eslint": "^8.18.1"
   }
 }
