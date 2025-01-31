@@ -21,7 +21,7 @@
     "predeploy": "npm run build",
     "lint:base": "eslint . --fix",
     "lint": "echo '🔍 Starting ESLint check...' && npm run lint:base -- --fix && echo '✅ ESLint check completed successfully!' || echo '❌ ESLint check failed. Please fix the issues!'",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "start": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
