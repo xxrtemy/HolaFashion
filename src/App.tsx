@@ -5,9 +5,11 @@ import { Header } from "@components/Header";
 import Home from "./feature/home/Home";
 import Product from "./feature/product/Product"
 import Services from "./feature/services/Services.jsx"
+import { useManifest } from "@hooks/use-get-manifest";
 
 
 function App() {
+  useManifest()
   return (
     <div className="App">
       <Header />

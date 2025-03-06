@@ -11,6 +11,7 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'),
       '@components': path.resolve(__dirname, './src/shared/components'),
       '@img': path.resolve(__dirname, './src/img'),
+      '@hooks': path.resolve(__dirname, './src/shared/hooks'),
     },
   },
 });
