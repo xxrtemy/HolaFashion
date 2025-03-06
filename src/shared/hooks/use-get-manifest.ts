@@ -17,12 +17,15 @@ export function useManifest() {
   background_color: "#ffffff",
   theme_color: "#000000"
 };
-    const content = encodeURIComponent(JSON.stringify(manifest));
-    const url = "data:application/manifest+json," + content;
+    const content = JSON.stringify(manifest);
+    const blob = new Blob ([content],{
+      type: 'application/manifest+json'
+    })
+    // const url = "data:application/manifest+json," + content;
 
     const linkEl = document.createElement('link');
     linkEl.setAttribute('rel', 'manifest');
-    linkEl.setAttribute('href', url);
+    linkEl.setAttribute('href', URL.createObjectURL(blob));
 
     document.head.appendChild(linkEl);
 
