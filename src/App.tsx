@@ -6,18 +6,26 @@ import Home from "./feature/home/Home";
 import Product from "./feature/product/Product"
 import Services from "./feature/services/Services.jsx"
 import { useManifest } from "@hooks/use-get-manifest";
+import PullToRefresh from "react-simple-pull-to-refresh";
 
 
 function App() {
   useManifest()
+  const handlePullDown = React.useCallback(async ()=> {
+    window.location.reload()
+  }, [])
   return (
     <div className="App">
-      <Header />
-      <Home />
-      <Product />
-      <Services />
-      <Blog />
-      <Contacts />
+      <PullToRefresh  pullingContent={''} onRefresh={handlePullDown} >  
+        <>
+          <Header />  
+          <Home />
+          <Product />
+          <Services />
+          <Blog />
+          <Contacts />
+        </>
+      </PullToRefresh>
     </div>
   );
 }

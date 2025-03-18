@@ -11,7 +11,7 @@ export const Header = () => {
   return (
     <HeaderWrapper>
             <HeaderContentWrapper>
-                <HeaderLogo>Hola Fashion</HeaderLogo>
+                <HeaderLogo>Hola</HeaderLogo>
                 <nav>
                     <HeaderNavList>
                     {
